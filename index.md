@@ -3,8 +3,57 @@
 
 
 * [一、什么是6502](about6502.md)
-* [二、什么是6502](about6502.md)
-* [三、什么是6502](about6502.md)
-* [四、什么是6502](about6502.md)
-* [五、什么是6502](about6502.md)
-* [六、指令集](about6502.md)
+* [二、寻址]
+* [三、FC使用的6502指令集](Instruction.md)
+  * 数据传送
+    * LDA
+    * LDX
+    * LDY
+    * STA
+    * STX
+    * STY 
+    * TAX
+    * TXA
+    * TAY
+    * TYA
+    * TSX
+    * TXS
+  * 算术运算指令
+    * ADC
+    * SUB
+    * INC
+    * DEC
+    * INX
+    * INY
+  * 逻辑运算
+    * ORA
+    * AND
+    * EOR
+  * 标志位设置
+    * SEI
+    * CLI
+    * SED
+    * CLD
+    * CLV
+    * CLC
+    * SEC
+  * 比较
+    * CMP
+    * CPX
+    * CPY
+    * BIT
+  * 移位
+    * ASL
+    * LSR
+    * ROL
+    * ROR
+  * 堆栈操作
+    * PHA
+    * PLA
+    * PHP
+    * PLP
+  * 跳转
+    * 
+    * JSR
+    * RTS
+    * JMP
